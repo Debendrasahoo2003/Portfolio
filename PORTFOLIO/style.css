@@ -1,0 +1,60 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+#main-nav {
+    background-color: transparent;
+}
+section {
+    height: 130vh;
+}
+#home {
+   background-image: url(Debendra.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-col {
+    margin-top: 25%;
+}
+i {
+    color: black;
+}
+#about img {
+    filter: grayscale(1);
+}
+.img-hero {
+    height: auto;
+    border-radius: 150px;
+}
+.spacing {
+    margin-top: 10%;
+}
+.card-icon {
+    font-size: 3rem;
+}
+.block {
+    height: .3rem;
+    width: 6rem;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
+li.nav-item:hover {
+    border: 1px solid rgb(57, 3, 114);
+    border-radius: 28px;
+    color: brown;
+    background-color: brown;
+}
+#contact {
+    height: 5vh;
+}
+ul li.contact-nav {
+    text-align: right;
+}
